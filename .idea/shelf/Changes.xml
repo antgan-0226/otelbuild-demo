@@ -1,0 +1,12 @@
+<changelist name="Changes" date="1732096617644" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="AFTER_PATH" value="main.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/main.exe" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="otelbuild.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/otelbuild.exe" />
+  </binary>
+</changelist>

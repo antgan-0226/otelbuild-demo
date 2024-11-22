@@ -4,36 +4,120 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7023de-5b15-4a7c-b780-6ac1198460e7" name="Changes" comment="" />
+    <list default="true" id="1e7023de-5b15-4a7c-b780-6ac1198460e7" name="Changes" comment="feature: 修改readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/instrument/http/otel_trampoline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/instrument/http/roundtrip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/instrument/model/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/instrument/service/otel_trampoline.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/instrument/service/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/backups/go.mod.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/backups/go.sum.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/backups/main.go.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/build_conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/dry_run.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_rules/http87548/hook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_rules/otel_setup_inst.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_rules/otel_setup_sdk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_rules/service95044/user_service_hook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_user/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_user/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/otel_user/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.otel-build/preprocess/rule_bundle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/otel_hook/rules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook/http/hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/otel_hook/http/hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hook/service/user_service_hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/otel_hook/service/user_service_hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/core/meter/meter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/db/db_client_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/db/db_client_getter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/db/db_span_name_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/http/http_attrs_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/http/http_attrs_getter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/http/http_metrics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/http/http_span_name_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/http/http_status_code_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/message/message_attrs_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/message/message_attrs_getter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/message/message_span_name_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/net/network_attrs_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/net/network_attrs_getter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/rpc/rpc_attrs_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/rpc/rpc_attrs_getter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api-semconv/instrumenter/rpc/rpc_span_name_extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/instrumenter/extractor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/instrumenter/hook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/instrumenter/instrumenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/instrumenter/instrumenter_builder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/instrumenter/span_supressor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/utils/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_pkgdep/inst-api/utils/span_key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_rules/http87548/hook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_rules/otel_setup_inst.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_rules/otel_setup_sdk.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otel_rules/service95044/user_service_hook.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/otelbuild.exe" beforeDir="false" afterPath="$PROJECT_DIR$/kotelbuild.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../go1.23.3" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GoVcsConfiguration">
+    <option name="GO_FMT" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2p6ptCDzHicEfqfWsdW61pXXamk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "E:/go-workspace/antgan-0226/otelbuild-demo",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Go Remote.本地main.go.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/go-workspace/antgan-0226/otelbuild-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\go-workspace\antgan-0226\otelbuild-demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\go-workspace\antgan-0226\otelbuild-demo\otel_hook" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="本地main.go" type="GoRemoteDebugConfigurationType" factoryName="Go Remote">
+      <option name="disconnectOption" value="ASK" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,6 +129,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feature: demo演示" />
+    <MESSAGE value="feature: 修改readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 修改readme" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

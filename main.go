@@ -1,7 +1,5 @@
 package main
 
-import _ "otelbuild-demo/otel_rules"
-
 import _ "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp"
 import _ "go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc"
 import _ "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp"

@@ -3,8 +3,8 @@ module otelbuild-demo
 go 1.23.3
 
 require (
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation v0.5.1
-	github.com/antgan-0226/opentelemetry-go-auto-instrumentation/test/verifier v0.0.0-20241120080835-df6534803198
+	github.com/antgan-0226/kotelbuild v0.5.5
+	github.com/antgan-0226/kotelbuild/test/verifier v0.0.0-20241121101330-eac0897bad02
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.31.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.31.0

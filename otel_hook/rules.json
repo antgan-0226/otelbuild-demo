@@ -1,0 +1,23 @@
+[
+  {
+    "ImportPath":"net/http",
+    "Function":"RoundTrip",
+    "OnEnter":"httpClientEnterHook",
+    "ReceiverType": "*Transport",
+    "OnExit": "httpClientExitHook",
+    "Path": "otel_hook/http"
+  },
+  {
+    "ImportPath":"otelbuild-demo/service",
+    "Function":"CreateUser",
+    "OnEnter":"createUserEnterHook",
+    "OnExit": "createUserExitHook",
+    "Path": "otel_hook/service"
+  },
+  {
+    "ImportPath": "otelbuild-demo/model",
+    "StructType": "UserModel",
+    "FieldName": "Age",
+    "FieldType": "int"
+  }
+]

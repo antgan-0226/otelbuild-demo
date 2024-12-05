@@ -1,9 +1,9 @@
 [
   {
     "ImportPath":"net/http",
-    "Function":"RoundTrip",
+    "Function":"Do",
     "OnEnter":"httpClientEnterHook",
-    "ReceiverType": "*Transport",
+    "ReceiverType": "*Client",
     "OnExit": "httpClientExitHook",
     "Path": "otel_hook/http"
   },
@@ -15,9 +15,9 @@
     "Path": "otel_hook/service"
   },
   {
-    "ImportPath": "otelbuild-demo/model",
-    "StructType": "UserModel",
-    "FieldName": "Age",
-    "FieldType": "int"
+    "ImportPath":"sort",
+    "Function":"Ints",
+    "OnEnter":"newSortImpl",
+    "Path": "otel_hook/sort"
   }
 ]

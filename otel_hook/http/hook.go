@@ -21,7 +21,7 @@ import (
 	"net/http"
 )
 
-func httpClientEnterHook(call api.CallContext, t *http.Transport, req *http.Request) {
+func httpClientEnterHook(call api.CallContext, t *http.Client, req *http.Request) {
 	header, _ := json.Marshal(req.Header)
 	fmt.Println("[http hook]request header is ", string(header))
 }
